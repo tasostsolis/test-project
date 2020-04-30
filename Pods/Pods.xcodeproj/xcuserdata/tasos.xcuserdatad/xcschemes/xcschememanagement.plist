@@ -4,24 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-TestProject-TestProjectUITests.xcscheme</key>
+		<key>Pods-TestProject-TestProjectUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-TestProject.xcscheme</key>
+		<key>Pods-TestProject.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-TestProjectTests.xcscheme</key>
+		<key>Pods-TestProjectTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
