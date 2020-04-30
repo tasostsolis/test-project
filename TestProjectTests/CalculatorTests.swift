@@ -19,9 +19,15 @@ class CalculatorTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testCalculator() throws {
+    func testAddition() throws {
 
         let finalNumber = Calculator.add(number: 10, toNumber: 10)
         XCTAssertEqual(finalNumber, 20)
+    }
+
+    func testSubtraction() throws {
+
+        let finalNumber = Calculator.subtract(number: 10, fromNumber: 20)
+        XCTAssertEqual(finalNumber, 10)
     }
 }

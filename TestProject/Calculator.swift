@@ -13,4 +13,8 @@ struct Calculator {
     static func add(number:Int, toNumber: Int) -> Int {
         number + toNumber
     }
+
+    static func subtract(number:Int, fromNumber: Int) -> Int {
+        fromNumber - number
+    }
 }

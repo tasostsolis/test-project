@@ -13,7 +13,6 @@
 		7D742F4E245B0BF200BF523B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D742F4C245B0BF200BF523B /* Main.storyboard */; };
 		7D742F50245B0BF700BF523B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D742F4F245B0BF700BF523B /* Assets.xcassets */; };
 		7D742F53245B0BF700BF523B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D742F51245B0BF700BF523B /* LaunchScreen.storyboard */; };
-		7D742F5E245B0BF700BF523B /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D742F5D245B0BF700BF523B /* TestProjectTests.swift */; };
 		7D742F69245B0BF700BF523B /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D742F68245B0BF700BF523B /* TestProjectUITests.swift */; };
 		7D742F77245B174F00BF523B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D742F76245B174F00BF523B /* Calculator.swift */; };
 		7D742F79245B17AA00BF523B /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D742F78245B17A900BF523B /* CalculatorTests.swift */; };
@@ -51,7 +50,6 @@
 		7D742F52245B0BF700BF523B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D742F54245B0BF700BF523B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D742F59245B0BF700BF523B /* TestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D742F5D245B0BF700BF523B /* TestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectTests.swift; sourceTree = "<group>"; };
 		7D742F5F245B0BF700BF523B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D742F64245B0BF700BF523B /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D742F68245B0BF700BF523B /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 		7D742F5C245B0BF700BF523B /* TestProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				7D742F5D245B0BF700BF523B /* TestProjectTests.swift */,
 				7D742F78245B17A900BF523B /* CalculatorTests.swift */,
 				7D742F5F245B0BF700BF523B /* Info.plist */,
 			);
@@ -424,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D742F5E245B0BF700BF523B /* TestProjectTests.swift in Sources */,
 				7D742F79245B17AA00BF523B /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
