@@ -22,6 +22,6 @@ class CalculatorTests: XCTestCase {
     func testCalculator() throws {
 
         let finalNumber = Calculator.add(number: 10, toNumber: 10)
-        XCTAssertEqual(finalNumber, 20)
+        XCTAssertEqual(finalNumber, 201)
     }
 }
