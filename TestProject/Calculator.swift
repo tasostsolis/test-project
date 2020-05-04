@@ -13,4 +13,5 @@ struct Calculator {
     static func add(number:Int, toNumber: Int) -> Int {
         number + toNumber
     }
+    
 }
