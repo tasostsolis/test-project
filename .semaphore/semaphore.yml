@@ -29,8 +29,14 @@ blocks:
         - name: Unit tests 3/3
           commands:
             - echo "run 3/3"
-epilogue:
-  on_fail:
-    commands:
-      - artifact push job logs/test.log
-      - artifact push job screenshots
+  - name: Build app
+    task:
+      jobs:
+        - name: Job 1
+          commands:
+            - make test
+      epilogue:
+        on_fail:
+          commands:
+            - artifact push job logs/test.log
+            - artifact push job screenshots
